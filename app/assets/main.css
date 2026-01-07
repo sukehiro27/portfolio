@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+html, body {
+    font-family: "Poppins", sans-serif;
+}
