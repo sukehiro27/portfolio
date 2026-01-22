@@ -32,9 +32,9 @@
               website
               and web applications.</p>
             <div class="flex justify-center">
-              <UButton class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-15 md:ms-20 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-blue-500 hover:bg-blue-300 shadow-lg dark:shadow-xl">
+              <UButton to="/project" class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-15 md:ms-20 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-blue-500 hover:bg-blue-300 shadow-lg dark:shadow-xl">
                 View My Project</UButton>
-              <UButton class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-10 md:ms-5 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-gray-400 hover:bg-gray-300 shadow-lg dark:shadow-xl">
+              <UButton to="/contact" class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-10 md:ms-5 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-gray-400 hover:bg-gray-300 shadow-lg dark:shadow-xl">
                 <UIcon name="i-lucide-send" />Contact Me
               </UButton>
             </div>
