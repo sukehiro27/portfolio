@@ -3,7 +3,7 @@
     <NuxtPage />
     <div>
       <UHeader title="" toggle-side="right">
-        <UNavigationMenu :items="items" class="w-full justify-center" :ui="{ label: 'active:text-blue-500' }" />
+        <UNavigationMenu :items="items" color="secondary" class="w-full justify-center" :ui="{  }"/>
         
         <template #right>
           <UColorModeButton />
@@ -19,7 +19,7 @@
         <div class="flex flex-col md:flex-row items-center justify-between">
           <div
             class="order-1 md:order-2 mx-auto sm:mx-0 w-70 h-70 sm:w-70 md:w-90 sm:h-70 md:h-90 rounded-2xl bg-blue-50 dark:bg-gray-800 overflow-hidden mt-17">
-            <img src="/assets/formal1.png" alt="picture" class="object-cover w-full h-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            <img src="/assets/formal3.png" alt="picture" class="object-cover w-full h-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           </div>
           <div class="order-2 md:order-1">
             <p
@@ -31,7 +31,7 @@
             <p class="w-full text-xl ms-5 sm:ms-10 md:ms-15 mt-2 text-gray-500 dark:text-white">I build responsive
               website
               and web applications.</p>
-            <div class="flex">
+            <div class="flex justify-center">
               <UButton class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-15 md:ms-20 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-blue-500 hover:bg-blue-300 shadow-lg dark:shadow-xl">
                 View My Project</UButton>
               <UButton class="cursor-pointer justify-center w-40 h-13 mt-10 sm:mt-6 ms-2 sm:ms-10 md:ms-5 sm:p-4 text-sm sm:text-sm rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-gray-400 hover:bg-gray-300 shadow-lg dark:shadow-xl">
@@ -96,40 +96,40 @@ import { onMounted } from 'vue'
 const items = ref<NavigationMenuItem[][]>([
   [
     {
-      class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
+      class: 'transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'Home',
       icon: 'i-lucide-home',
       to: '/',
     },
     {
-      class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
+      class: 'transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'About me',
       icon: 'i-lucide-user-round',
       to: '/about'
     },
     {
-      class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
+      class: 'transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'Education',
       icon: 'i-lucide-book',
-      to: '',
+      to: '/educations',
     },
     {
       class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'Work experience',
       icon: 'i-lucide-briefcase-business',
-      to: ''
+      to: '/experience'
     },
     {
       class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'Project',
       icon: 'i-lucide-layers',
-      to: ''
+      to: '/project'
     },
     {
       class: ' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer',
       label: 'Contact',
       icon: 'i-lucide-send',
-      to: ''
+      to: '/contact'
     }
   ],
   [
